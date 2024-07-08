@@ -1,0 +1,2 @@
+shift_vble_1;rolling_vble_1;thres;modelo;MAE;RMSE;R2;MDA;metrica_media
+0;2;0.1;LassoLars(random_state=42);2636.8341;2636.8341;;;2636.8341

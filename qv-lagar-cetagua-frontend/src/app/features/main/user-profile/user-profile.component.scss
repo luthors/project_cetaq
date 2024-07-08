@@ -1,0 +1,161 @@
+@import './src/assets/scss/variables.scss';
+
+.filter-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.container-card{
+  display: flex;
+  flex-direction: column;
+  flex: 40;
+  gap: 5px;
+}
+
+.input-container{
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    flex: 60;
+}
+
+.profile-card{
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+.form-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  }
+
+
+.account-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile-content{
+    display: flex;
+}
+
+.input-field {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0; 
+  }
+
+
+.profile-card2 {
+    flex: 40;
+    width: 100%; 
+    margin: auto 20px;
+    overflow: hidden; 
+  
+    .upper-section {
+      height: 200px; 
+      position: relative;
+      background: linear-gradient(to bottom right, $primary-dark-bluemarine, $background-transparent), 
+            url('../../../../assets/images/croquis.png');
+  
+      
+    }
+  
+    .user-photo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 5px solid #fff; 
+      border-radius: 50%; 
+      overflow: hidden;
+      z-index: 1;
+      background-image: url('../../../../assets/images/letter-c.png');
+      background-size: cover;
+
+      width: 100px;
+      height: 100px;
+  
+    }
+  
+    .lower-section {
+      padding: 16px;
+      text-align: center;
+  
+    }
+  }
+  
+.info-chips{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual-chip div{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media (min-width: 681px) and (max-width: 760px) {
+.profile-card2{
+  .user-photo {
+    width: 60px; 
+    height: 60px;
+  }
+}
+
+}
+
+@media (max-width: 680px) {
+  .filter-card{
+    flex-direction: column;
+  }
+  .profile-card2 {
+    margin-top: 1%;
+    width: 90%;
+    
+  }
+
+  .upper-section {
+    height: 60px; 
+  }
+
+  @media (max-width: 378px) {
+    .filter-card{
+      flex-direction: column;
+    }
+    .profile-card2 {
+      margin-top: 1%;
+      width: 80%;
+      
+    }
+    .input-container{
+      width: 80%;
+    }
+
+    .upper-section {
+      height: 60px; 
+    }
+
+    .profile-card2{
+      .user-photo {
+        width: 50px; 
+        height: 50px;
+      }
+    }
+  }
+}

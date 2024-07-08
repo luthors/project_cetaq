@@ -1,0 +1,598 @@
+<mat-card>
+  <mat-card-header>
+    <div mat-card-avatar><mat-icon>settings</mat-icon></div>
+    <mat-card-title>Variables de medición</mat-card-title>
+    <mat-card-subtitle>Personalización de tolerancia de alertas
+      <!-- <strong>Plaza de toros</strong> -->
+    </mat-card-subtitle>
+    <button mat-icon-button color="primary" class="information-btn" (click)="onClick(1,0)">
+      <mat-icon>info</mat-icon>
+    </button>
+    <mat-slide-toggle [formControl]="editThreshold" class="edit-thresholdForm" color="primary">Editar
+      umbrales</mat-slide-toggle>
+  </mat-card-header>
+  <mat-card-content>
+    <form (ngSubmit)="onSubmitAnomalyForm($event)" *ngIf="editThreshold.value" [formGroup]="thresholdForm"
+      autocomplete="off">
+      <div class="form-container">
+        <div class="form-column">
+          <div class="variable-container" formGroupName="flow">
+            <div>
+              <mat-checkbox formControlName="active" onchange="" color="primary"><strong (mouseover)="showCard = true"
+                  (mouseleave)="showCard = false">Caudal</strong>
+                  <!-- <mat-card class="info-card" *ngIf="showCard">
+                  <mat-card-subtitle>
+                    <ul class="info-card-sub">
+                      <li>
+                        {{info[0].content[0].subtitle}}
+                      </li>
+                    </ul>
+                  </mat-card-subtitle>
+                  <mat-card-content>
+                    <ul>
+                      <li *ngFor="let text of info[0].content[0].text">{{text}}</li>
+                    </ul>
+                  </mat-card-content>
+                </mat-card> -->
+              </mat-checkbox>
+              <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,0)">
+                <mat-icon>info</mat-icon>
+              </span>
+            </div>
+            <div class="form-row">
+              <!-- <mat-form-field class="input-field">
+                <mat-label>Envolvente</mat-label>
+                <input
+                  matInput
+                  type="number"
+                  formControlName="meanSurrounding"
+                  name="meanSurrounding"
+                  placeholder="Ingrese valor numérico" />
+                <mat-error
+                  *ngIf="
+                    thresholdForm
+                      .get('flow.meanSurrounding')
+                      ?.hasError('required')
+                  "
+                  >Valor requerido</mat-error
+                >
+              </mat-form-field> -->
+              <div class="separator" >
+                <div class="separator-title2">
+                  <p>Envolvente</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Media días/semana</mat-label>
+                  <input matInput type="number" formControlName="meanWeekDays" name="meanWeekDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm.get('flow.meanWeekDays')?.hasError('required')
+                  ">Valor requerido</mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Horas</mat-label>
+                  <input matInput type="number" formControlName="hours" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="thresholdForm.get('flow.hours')?.hasError('required')">Valor requerido</mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Tolerancia(%)</mat-label>
+                  <input matInput type="number" formControlName="tolerance" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm.get('flow.tolerance')?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="thresholdForm.get('flow.tolerance')?.hasError('min')">
+                    Mín: 0
+                  </mat-error>
+                  <mat-error *ngIf="thresholdForm.get('flow.tolerance')?.hasError('max')">
+                    Máximo: 1
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="variable-container" formGroupName="minFlow">
+            <div>
+              <mat-checkbox color="primary" formControlName="active"><strong>Caudal Mínimo</strong></mat-checkbox>
+              <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,1)">
+                <mat-icon>info</mat-icon>
+              </span>
+            </div>
+            <div class="form-row">
+              <div class="separator-title">
+                <p>Media Móvil</p>
+              </div>
+              <div class="separator">
+                <mat-form-field class="input-field">
+                  <mat-label>Núm días</mat-label>
+                  <input matInput type="number" formControlName="movingAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.movingAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.movingAverageDays')
+                      ?.hasError('min')
+                  ">
+                    Mín: 4
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.movingAverageDays')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 14
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso media</mat-label>
+                  <input matInput type="number" formControlName="weightAverage" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.weightAverage')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('minFlow.weightAverage')?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('minFlow.weightAverage')?.hasError('max')
+                  ">
+                    Máximo: 2.5
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso desviación</mat-label>
+                  <input matInput type="number" formControlName="weightDeviation"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.weightDeviation')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.weightDeviation')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.weightDeviation')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2
+                  </mat-error>
+                </mat-form-field>
+              </div>
+              <div class="separator">
+                <div class="separator-title2">
+                  <p>Media fija</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Umbral fijo(días)</mat-label>
+                  <input matInput type="number" formControlName="fixedAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlow.fixedAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Tolerancia(%)</mat-label>
+                  <input matInput type="number" formControlName="tolerance" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm.get('minFlow.tolerance')?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('minFlow.tolerance')?.hasError('min')
+                  ">
+                    Mín: 0
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('minFlow.tolerance')?.hasError('max')
+                  ">
+                    Máximo: 100
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="variable-container" formGroupName="dailyVolume">
+            <div>
+              <mat-checkbox color="primary" formControlName="active"><strong>Volumen diario</strong></mat-checkbox>
+              <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,2)">
+                <mat-icon>info</mat-icon>
+              </span>
+            </div>
+            <div class="form-row">
+              <div class="separator-title">
+                <p>Media Móvil</p>
+              </div>
+              <div class="separator">
+                <mat-form-field class="input-field">
+                  <mat-label>Núm días</mat-label>
+                  <input matInput type="number" formControlName="movingAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.movingAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.movingAverageDays')
+                      ?.hasError('min')
+                  ">
+                    Mín: 4
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.movingAverageDays')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 14
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso media</mat-label>
+                  <input matInput type="number" formControlName="weightAverage" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightAverage')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightAverage')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightAverage')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2.5
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso desviación</mat-label>
+                  <input matInput type="number" formControlName="weightDeviation"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightDeviation')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightDeviation')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.weightDeviation')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2
+                  </mat-error>
+                </mat-form-field>
+              </div>
+              <div class="separator">
+                <div class="separator-title2">
+                  <p>Media fija</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Umbral fijo(días)</mat-label>
+                  <input matInput type="number" formControlName="fixedAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.fixedAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Tolerancia(%)</mat-label>
+                  <input matInput type="number" formControlName="tolerance" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('dailyVolume.tolerance')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('dailyVolume.tolerance')?.hasError('min')
+                  ">
+                    Mín: 0
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('dailyVolume.tolerance')?.hasError('max')
+                  ">
+                    Máximo: 100
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-column">
+          <div class="variable-container" formGroupName="pressure">
+            <div>
+              <mat-checkbox color="primary" formControlName="active"><strong>Presión</strong></mat-checkbox>
+              <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,3)">
+                <mat-icon>info</mat-icon>
+              </span>
+            </div>
+            <div class="form-row">
+              <div class="separator">
+                <div class="separator-title2">
+                  <p>Media Móvil</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Núm días</mat-label>
+                  <input matInput type="number" formControlName="movingAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.movingAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.movingAverageDays')
+                      ?.hasError('min')
+                  ">
+                    Mín: 4
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.movingAverageDays')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 14
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso media</mat-label>
+                  <input matInput type="number" formControlName="weightAverage" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.weightAverage')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('pressure.weightAverage')?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm.get('pressure.weightAverage')?.hasError('max')
+                  ">
+                    Máximo: 2.5
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso desviación</mat-label>
+                  <input matInput type="number" formControlName="weightDeviation"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.weightDeviation')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.weightDeviation')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('pressure.weightDeviation')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="variable-container" formGroupName="minFlowMultmeanFlow">
+            <div>
+              <mat-checkbox color="primary" formControlName="active"><strong>Caudal Mínimo X presión
+                  media</strong></mat-checkbox>
+              <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,4)">
+                <mat-icon>info</mat-icon>
+              </span>
+            </div>
+            <div class="form-row">
+              <div class="separator">
+                <div class="separator-title2">
+                  <p>Media Móvil</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Núm días</mat-label>
+                  <input matInput type="number" formControlName="movingAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.movingAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.movingAverageDays')
+                      ?.hasError('min')
+                  ">
+                    Mín: 4
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.movingAverageDays')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 14
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso media</mat-label>
+                  <input matInput type="number" formControlName="weightAverage" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightAverage')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightAverage')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightAverage')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2.5
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso desviación</mat-label>
+                  <input matInput type="number" formControlName="weightDeviation"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightDeviation')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightDeviation')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowMultmeanFlow.weightDeviation')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div class="variable-container" formGroupName="minFlowDivmeanFlow">
+            <div>
+            <mat-checkbox color="primary" formControlName="active"><strong>Caudal Mínimo / Caudal
+                medio</strong></mat-checkbox>
+                <span mat-icon-button color="primary" class="information-btn" (click)="onClick2(2,5)">
+                  <mat-icon>info</mat-icon>
+                </span>
+              </div>
+            <div class="form-row">
+              <div class="separator">
+                <div class="separator-title2">
+                  <p>Media Móvil</p>
+                </div>
+                <mat-form-field class="input-field">
+                  <mat-label>Núm días</mat-label>
+                  <input matInput type="number" formControlName="movingAverageDays"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.movingAverageDays')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.movingAverageDays')
+                      ?.hasError('min')
+                  ">
+                    Mín: 4
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.movingAverageDays')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 14
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso media</mat-label>
+                  <input matInput type="number" formControlName="weightAverage" placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightAverage')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightAverage')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightAverage')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2.5
+                  </mat-error>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                  <mat-label>Peso desviación</mat-label>
+                  <input matInput type="number" formControlName="weightDeviation"
+                    placeholder="Ingrese valor numérico" />
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightDeviation')
+                      ?.hasError('required')
+                  ">Valor requerido</mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightDeviation')
+                      ?.hasError('min')
+                  ">
+                    Mín: 0.5
+                  </mat-error>
+                  <mat-error *ngIf="
+                    thresholdForm
+                      .get('minFlowDivmeanFlow.weightDeviation')
+                      ?.hasError('max')
+                  ">
+                    Máximo: 2
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="variable-container" formGroupName="meteo">
+        <mat-checkbox class="check-thresholdForm" color="primary" formControlName="active"><strong>Datos
+            meteorológicos</strong></mat-checkbox>
+      </div>
+
+      <button mat-raised-button color="primary" class="save-variables" type="submit">
+        Guardar
+      </button>
+    </form>
+  </mat-card-content>
+</mat-card>

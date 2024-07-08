@@ -1,0 +1,2 @@
+shift_vble_1;rolling_vble_1;thres;modelo;MAE;RMSE;R2;MDA;metrica_media
+0;1;0.1;OrthogonalMatchingPursuit(normalize=False);532.6608;574.4323;-1.33;0.8;553.5466

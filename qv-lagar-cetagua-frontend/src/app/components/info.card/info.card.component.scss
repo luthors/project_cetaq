@@ -1,0 +1,14 @@
+@import './src/assets/scss/variables.scss';
+
+.container{
+  background-color: $neutral-white;
+}
+
+.info-title {
+    color: $primary-bluemarine;
+}
+
+.info-text {
+  text-wrap: 1;
+}
+

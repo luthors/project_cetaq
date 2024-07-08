@@ -1,0 +1,15 @@
+{
+    "raw_data_parameters" : {
+        "emuasa" : {
+            "url_emuasa" : "https://saihweb.chsegura.es/hermes/apps/apisaih/get_data.php?grupo=emuasa"
+        },
+
+        "aemet" : {
+            "token" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnZXJtYW4uY2FybmVyb3NAY2V0YXF1YS5jb20iLCJqdGkiOiIzNDU1Njk4My1mZWQwLTQ3ZWEtYTY3Ni04YTdmNjMxZTNhNTAiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY4NTUzNDA0MywidXNlcklkIjoiMzQ1NTY5ODMtZmVkMC00N2VhLWE2NzYtOGE3ZjYzMWUzYTUwIiwicm9sZSI6IiJ9.YagO3LEMut3ca6aPY6OKK641ucgrURXl0zUzf6dXaLg"
+        }
+    },
+
+    "model_inference_parameters" : {
+        "path_models" : "../models"
+    }
+}

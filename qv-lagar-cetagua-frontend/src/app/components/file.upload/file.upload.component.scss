@@ -1,0 +1,38 @@
+@import './src/assets/scss/variables.scss';
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+  border-radius: 10px;
+
+}
+.modal-title{
+  color: $primary-bluemarine;
+}
+.modal-description{
+  color: $neutral-gray-75;
+}
+
+.drag-text{
+  color: $primary-bluemarine-medium-2;
+  font-size: $font-modal-content;
+}
+.box-actions{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+.upload-button{
+  background-color: $primary-bluemarine;
+  margin-bottom: 5px;
+}
+
+.button-modal{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-modal button:first-child{
+  margin-right: 5%;
+}

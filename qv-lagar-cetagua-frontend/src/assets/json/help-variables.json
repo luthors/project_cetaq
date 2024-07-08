@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Sector",
+        "content": "Sector que se desea evaluar"
+    },
+    {
+        "title": "Número de días",
+        "content": "Establece el número de días anteriores al último dato disponible al que se le va a realizar la comprobación de comportamientos anómalos  (valor por defecto: 7; mínimo: 5; máximo: 12)."
+    },
+    {
+        "title": "Días consecutivos",
+        "content": "Establece el número mínimo de días consecutivos durante los cuales se debe presentar la anomalía para considerar el sector como anómalo"
+    },
+    {
+        "title": "Tolerancia",
+        "content": "Modifica los parámetros de los umbrales de los indicadores de forma automática, para una tolerancia alta, media o baja."
+    },
+    {
+        "title": " Número de indicadores",
+        "content": "Establece el número de indicadores anómalos que deben haber de manera simultánea en un mismo día para considerarse como anómalo (valor por defecto: 3; mínimo: 1; máximo: 8)."
+      },
+      {
+        "title": "Número de días anómalos consecutivos: (porcentaje de días totales? No suelen salir muchos días consecutivos)",
+        "content": "Establece el número de días consecutivos que deben ser considerados como anómalos para levantar una alerta en un determinado sector (valor por defecto: 2; mínimo: 1; máximo: (número de días))."
+      }
+]

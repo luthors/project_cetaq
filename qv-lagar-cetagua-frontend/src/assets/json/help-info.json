@@ -1,0 +1,65 @@
+
+    [
+      {
+        "title": "Caudal",
+        "content": [
+          {
+            "subtitle": "Envolvente",
+            "text": ["Tolerancia: establece el porcentaje superior e inferior empleado para determinar la envolvente del caudal. Un mayor valor implica más tolerancia (valor por defecto: 0,2; mínimo: 0,01; máximo: 1).", "Horas: número de  horas consecutivas que debe permanecer el valor fuera de la envolvente para  ser considerado el día como anómalo. Un mayor valor implica más tolerancia (valor por defecto: 3; mínimo: 1; máximo: 24)."]
+          }
+        ]
+      },
+      {
+        "title": "Caudal mínimo",
+        "content": [
+          {
+            "subtitle": "Media movil",
+            "text": ["Número días: días empleados para calcular la media móvil del caudal mínimo. Un mayor valor implica menor estacionalidad  (valor por defecto: 7; mínimo: 4; máximo: 14).", "Peso de la media: importancia de la media móvil del caudal mínimo en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).", "Peso de la desviación típica: importancia de la desviación típica de la media móvil del caudal mínimo en la determinación de un día como anómalo. Un mayor valor implica mayor tolerancia (valor por defecto: 1; mínimo: 0,5; máximo: 2)."]
+          },
+          {
+            "subtitle": "Media fija",
+            "text": ["Número de días: días empleados para calcular la media fija del caudal mínimo. Un mayor valor implica  menor estacionalidad (valor por defecto: 60; mínimo: 30; máximo: 150).", "Tolerancia: establece el porcentaje superior e inferior empleado para determinar la envolvente de la media fija del caudal mínimo. Un mayor valor implica más tolerancia (valor por defecto: 0,2; mínimo: 0,01; máximo: 1)."]
+          }
+        ]
+      },
+      {
+        "title": "Volumen diario",
+        "content": [
+          {
+            "subtitle": "Media movil",
+            "text": ["Número días: días empleados para calcular la media móvil del volumen diario. Un mayor valor implica menor estacionalidad  (valor por defecto: 7; mínimo: 4; máximo: 14).", "Peso de la media: importancia de la media móvil del caudal mínimo en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).", "Peso de la media: importancia de la media móvil del volumen diario en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).","Peso de la desviación típica: importancia de la desviación típica de la media móvil del volumen diario en la determinación de un día como anómalo. Un mayor valor implica mayor tolerancia (valor por defecto: 1; mínimo: 0,5; máximo: 2)."]
+          },
+          {
+            "subtitle": "Media fija",
+            "text": ["Número de días: días empleados para calcular la media fija del volumen diario. Un mayor valor implica  menor estacionalidad (valor por defecto: 60; mínimo: 30; máximo: 150).","Tolerancia: establece el porcentaje superior e inferior empleado para determinar la envolvente de la media fija del volumen diario. Un mayor valor implica más tolerancia (valor por defecto: 0,2; mínimo: 0,01; máximo: 1)."]
+          }
+        ]
+      },
+      {
+        "title": "Presión",
+        "content": [
+          {
+            "subtitle": "Media movil",
+            "text": ["Número días: días empleados para calcular la media móvil de la presión mínima. Un mayor valor implica menor estacionalidad (valor por defecto: 7; mínimo: 4; máximo: 14).","Peso de la media: importancia de la media móvil de la presión mínima en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).","Peso de la desviación típica: importancia de la desviación típica de la media móvil de la presión mínima en la determinación de un día como anómalo. Un mayor valor implica mayor tolerancia (valor por defecto: 1; mínimo: 0,5; máximo: 2)."]
+          }
+        ]
+      },
+      {
+        "title": "Producto del caudal medio por el caudal mínimo",
+        "content": [
+          {
+            "subtitle": "Media movil",
+            "text": ["Número días: días empleados para calcular la media móvil del  producto del caudal medio por el caudal mínimo. Un mayor valor implica menor estacionalidad (valor por defecto: 7; mínimo: 4; máximo: 14).","Peso de la media: importancia de la media móvil del producto del caudal medio por el caudal mínimo en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).","Peso de la desviación típica: importancia de la desviación típica de la media móvil del producto del caudal medio por el caudal mínimo en la determinación de un día como anómalo. Un mayor valor implica mayor tolerancia (valor por defecto: 1; mínimo: 0,5; máximo: 2)."]
+          }
+        ]
+      },
+      {
+        "title": "División del caudal mínimo entre el caudal medio",
+        "content": [
+          {
+            "subtitle": "Media movil",
+            "text": ["Número días: días empleados para calcular la media móvil del  producto del caudal medio por el caudal mínimo. Un mayor valor implica menor estacionalidad (valor por defecto: 7; mínimo: 4; máximo: 14).","Peso de la media: importancia de la media móvil de la división del caudal mínimo entre el caudal medio en la determinación de un día como anómalo. Un mayor valor implica aumentar el valor de la media considerada (el umbral de valores “buenos” será más alto) (valor por defecto: 1; mínimo: 0,7; máximo: 1.3).","Peso de la desviación típica: importancia de la desviación típica de la media móvil de la división del caudal mínimo entre el caudal medio en la determinación de un día como anómalo. Un mayor valor implica mayor tolerancia (valor por defecto: 1; mínimo: 0,5; máximo: 2)."]
+          }
+        ]
+      }
+    ]

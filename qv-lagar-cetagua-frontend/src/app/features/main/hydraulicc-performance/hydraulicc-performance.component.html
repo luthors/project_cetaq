@@ -1,0 +1,152 @@
+<mat-card class="filter-card">
+  <div class="input-container">
+    <p>Módulo de consulta y cálculo del rendimiento hidráulico</p>
+    <form [formGroup]="performanceForm" (ngSubmit)="sendDataCq()">
+      <div class="input-row">
+        <mat-form-field class="input-place">
+          <mat-label>Mapa</mat-label>
+          <mat-select
+            (selectionChange)="onMapSelected($event.value)"
+            formControlName="map">
+            <mat-option *ngFor="let maps of listMapName" [value]="maps">{{
+              maps.name
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="input-place">
+          <mat-label>Sector</mat-label>
+          <mat-select
+            (valueChange)="onSectorSelected($event)"
+            formControlName="sector"
+            placeholder="Seleccione el sector">
+            <mat-option
+              *ngFor="let sector of listSectorName"
+              [value]="sector"
+              >{{ sector.name }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="input-place">
+          <mat-label>Año</mat-label>
+          <input
+            matInput
+            type="number"
+            formControlName="year"
+            placeholder="Ingrese el año" />
+        </mat-form-field>
+        <mat-form-field class="input-place">
+          <mat-label>Bimestre</mat-label>
+          <mat-select
+            formControlName="bimester"
+            placeholder="Seleccione el bimestre">
+            <mat-option
+              *ngFor="let bimester of listBimester"
+              [value]="bimester"
+              >{{ bimester }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+        <button
+          mat-raised-button
+          color="primary"
+          type="submit"
+          [disabled]="!fileAccept">
+          Calcular rendimiento hidráulico
+        </button>
+      </div>
+    </form>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="onClick()"
+      [disabled]="performanceForm.invalid">
+      Cargar fichero
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit"
+      (click)="listData()">
+      Consultar histórico
+    </button>
+    <div class="input-row"></div>
+  </div>
+  <!-- <div> <app-map></app-map></div> -->
+</mat-card>
+
+<div></div>
+<div class="container-performance" [ngClass]="{ dataBlur: !blurred }">
+  <div>
+    <!-- <form> -->
+    <p><strong>Datos históricos del rendimiento del sector</strong></p>
+
+    <!-- </form> -->
+    <!-- <div class="input-row"></div> -->
+  </div>
+  <div class="data">
+    <div class="graph">
+      <app-apex-graph-hp></app-apex-graph-hp>
+    </div>
+    <div>
+      <div class="mat-elevation-z8">
+        <table mat-table [dataSource]="dataSource">
+          <caption></caption>
+
+          <!-- Position Column -->
+          <ng-container matColumnDef="N°">
+            <th mat-header-cell *matHeaderCellDef scope="col">N°</th>
+            <td mat-cell *matCellDef="let element; let i = index">
+              {{ i + 1 }}
+            </td>
+          </ng-container>
+
+          <!-- Name Column -->
+          <ng-container matColumnDef="bimester">
+            <th mat-header-cell *matHeaderCellDef scope="col">Bimestre</th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.bimester }} - {{ element.year }}
+            </td>
+          </ng-container>
+
+          <!-- Weight Column -->
+          <ng-container matColumnDef="hp_total_percentage">
+            <th mat-header-cell *matHeaderCellDef scope="col">Rendimiento</th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.hp_total_percentage }}
+            </td>
+          </ng-container>
+
+          <ng-container matColumnDef="eliminar">
+            <th mat-header-cell *matHeaderCellDef scope="col">Eliminar</th>
+            <td mat-cell *matCellDef="let element">
+              <button
+                mat-icon-button
+                (click)="deleteData(element.id)"
+                [disabled]="element.newRegister">
+                <mat-icon>delete</mat-icon>
+              </button>
+              <button *ngIf="element.newRegister" mat-icon-button>
+                <!-- (click)="saveData -->
+                <mat-icon>save</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr
+            mat-row
+            *matRowDef="let row; columns: displayedColumns"
+            [ngClass]="{ newPerformance: newRegister }"></tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[6, 12, 24, 36]" showFirstLastButtons>
+        </mat-paginator>
+        <div class="demo-button-container">
+          <!-- <button mat-raised-button (click)="addData()" class="demo-button">
+            Guardar
+          </button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

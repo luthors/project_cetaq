@@ -1,0 +1,27 @@
+<mat-toolbar>
+  <mat-icon class="logo-icon" [routerLink]="['/main']"></mat-icon>
+  <span class="example-spacer"></span>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>person</mat-icon>
+  </button>
+    <mat-menu #menu="matMenu">
+      <div class="menu-item">
+        <div class="info-container">
+          <div class="user-photo">
+            <!-- <img src="" alt="Foto de perfil"> -->
+          </div>
+          <div class="user-info">
+            <span><strong>{{ user.name }} {{user.last_name}}</strong></span>
+            <span>{{ user.email }}</span>
+          </div>
+          
+        </div>
+        <mat-divider></mat-divider>
+        <button mat-menu-item class="example-icon favorite-icon"
+      (click)="navigateToProfile()"><mat-icon>person</mat-icon>Perfil de Usuario</button>
+      </div>
+      
+    </mat-menu>
+
+  
+</mat-toolbar>

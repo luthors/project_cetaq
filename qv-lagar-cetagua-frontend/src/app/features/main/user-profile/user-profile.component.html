@@ -1,0 +1,156 @@
+<mat-card class="filter-card">
+  <div class="container-card">
+    <mat-card class="profile-card2">
+      <div class="upper-section"></div>
+      <div class="user-photo">
+        <!-- <img src="" alt="Foto de perfil"> -->
+      </div>
+      <div class="lower-section">
+        <h2>{{ user.name }} {{ user.last_name }}</h2>
+        <div class="info-chips">
+          <mat-chip-set aria-label="user info">
+            <mat-chip class="individual-chip">
+              <div><mat-icon>person</mat-icon> Usuario</div>
+            </mat-chip>
+            <mat-chip class="individual-chip">
+              <div><mat-icon>map</mat-icon> {{ exploitation }}</div>
+            </mat-chip>
+          </mat-chip-set>
+        </div>
+      </div>
+    </mat-card>
+    <mat-card class="profile-card2">
+      <button mat-button (click)="downloadDocument()">
+        Descargar manual de usuario
+      </button>
+    </mat-card>
+  </div>
+
+  <div class="input-container">
+    <mat-tab-group>
+      <mat-tab label="Datos personales">
+        <div class="account-tab">
+          <mat-card class="profile-card">
+            <mat-card-header>
+              <div mat-card-avatar><mat-icon>settings</mat-icon></div>
+              <mat-card-title>Configuración de cuenta</mat-card-title>
+              <mat-card-subtitle
+                >Actualice sus datos personales aquí
+              </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content class="profile-content">
+              <form autocomplete="off">
+                <div class="form-row">
+                  <div class="separator">
+                    <mat-form-field class="input-field">
+                      <mat-label>Nombres</mat-label>
+                      <input
+                        matInput
+                        name="name"
+                        [(ngModel)]="user.name"
+                        placeholder="Ingrese nombre" />
+                    </mat-form-field>
+                    <mat-form-field class="input-field">
+                      <mat-label>Apellidos</mat-label>
+                      <input
+                        matInput
+                        name="last_name"
+                        [(ngModel)]="user.last_name"
+                        placeholder="Ingrese sus apellidos" />
+                    </mat-form-field>
+                    <mat-form-field class="input-field">
+                      <mat-label>Correo electrónico</mat-label>
+                      <input
+                        matInput
+                        name="email"
+                        [(ngModel)]="user.email"
+                        type="email"
+                        placeholder="correo@gmail.com" />
+                    </mat-form-field>
+                  </div>
+                </div>
+                <button
+                  mat-raised-button
+                  color="primary"
+                  class="save-variables"
+                  type="submit"
+                  (click)="saveData()">
+                  Guardar
+                </button>
+              </form>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </mat-tab>
+      <mat-tab label="Cambiar contraseña">
+        <div class="account-tab">
+          <mat-card class="profile-card">
+            <mat-card-header>
+              <div mat-card-avatar><mat-icon>settings</mat-icon></div>
+              <mat-card-title>Cambio de contraseña</mat-card-title>
+              <mat-card-subtitle
+                >Para cambiar la contraseña, confirme lo siguiente:
+              </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content class="profile-content">
+              <form
+                autocomplete="off"
+                [formGroup]="changePasswordForm"
+                (ngSubmit)="onSubmit()">
+                <div class="form-row">
+                  <div class="separator">
+                    <mat-form-field class="input-field">
+                      <mat-label>Nueva contraseña</mat-label>
+                      <input
+                        matInput
+                        [type]="hide ? 'password' : 'text'"
+                        name="password"
+                        formControlName="newPassword" />
+                        <mat-error *ngIf="changePasswordForm.get('newPassword')?.hasError('required')">La contraseña es obligatoria</mat-error>
+                        <mat-error *ngIf="changePasswordForm.get('newPassword')?.hasError('minlength')">La contraseña debe tener al menos 8 caracteres</mat-error>
+                      <button
+                        mat-icon-button
+                        matSuffix
+                        (click)="hide = !hide"
+                        [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
+                        <mat-icon>{{
+                          hide ? 'visibility_off' : 'visibility'
+                        }}</mat-icon>
+                      </button>
+                    </mat-form-field>
+                    <mat-form-field class="input-field">
+                      <mat-label>Confirme contraseña nueva</mat-label>
+                      <input
+                        matInput
+                        [type]="hideConfirm ? 'password' : 'text'"
+                        name="password2"
+                        formControlName="confirmPassword" />
+                      <button
+                        mat-icon-button
+                        matSuffix
+                        (click)="hideConfirm = !hideConfirm"
+                        [attr.aria-label]="'hideConfirm password'"
+                        [attr.aria-pressed]="hideConfirm">
+                        <mat-icon>{{
+                          hideConfirm ? 'visibility_off' : 'visibility'
+                        }}</mat-icon>
+                      </button>
+                    </mat-form-field>
+                  </div>
+                </div>
+                <button
+                  mat-raised-button
+                  color="primary"
+                  class="save-variables"
+                  type="submit">
+                  Guardar
+                </button>
+              </form>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</mat-card>

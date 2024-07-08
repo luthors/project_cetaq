@@ -1,0 +1,85 @@
+<div *ngIf="!showForgotPasswordForm; else forgotPasswordForm">
+  <div class="login-container">
+    <div class="blurry-background"></div>
+    <img class="company-logo" src="assets/images/Cetaqua.png" alt="Company Logo">
+    <div class="left-side">
+      <mat-card class="login-card">
+        <mat-card-header class="card-header">
+          <mat-card-title class="title-box">Iniciar sesión</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <form [formGroup]="loginForm">
+            <div *ngIf="errorMessage" class="error-message">
+              {{ errorMessage }}
+            </div>
+            <mat-form-field class="full-width">
+              <mat-icon matSuffix>person</mat-icon>
+              <mat-label>Usuario</mat-label>
+              <input
+                matInput
+                placeholder="Ingrese su usuario"
+                name="email"
+                formControlName="email" />
+            </mat-form-field>
+            <mat-form-field class="full-width">
+              <mat-label>Contraseña</mat-label>
+              <input matInput [type]="hide ? 'password' : 'text'" placeholder="Ingrese su contraseña"
+              name="password"
+              formControlName="password">
+                <mat-icon matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </mat-form-field>
+            
+            <section class="example-section">
+              <div class="flex-container">
+                <mat-checkbox class="example-margin" color="primary" formControlName="rememberMeControl"
+                  >Recordarme</mat-checkbox
+                >
+                <img
+                  mat-card-image
+                  class="veolia-img"
+                  src="../../../assets/images/veolia.png"
+                  alt="Veolia icon" />
+              </div>
+            </section>
+            <!-- <button type="submit" (click) = "login()">Iniciar sesión</button> -->
+            <button mat-raised-button color="primary" type="submit" (click) = "login()">
+              Iniciar sesión
+            </button>
+          </form>
+          <div class="forgot-link">
+            <a (click)="showForgotPasswordForm = true"
+              >¿Olvidó su contraseña?</a
+            >
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+<!-- Password recovery form -->
+<ng-template #forgotPasswordForm>
+  <div class="login-container">
+    <div class="blurry-background"></div>
+    <img class="company-logo" src="assets/images/Cetaqua.png" alt="Company Logo">
+    <div class="left-side">
+      <mat-card class="login-card">
+        <mat-card-header class="card-header">
+          <mat-card-title class="title-box">Recuperar contraseña</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="login-content">
+          <!-- <form [formGroup]="recoveryForm" (ngSubmit)="resetPassword()">
+          </form> -->
+          <button mat-raised-button color="primary" (click)="redirectToResetPassword()">
+            Recuperar contraseña
+          </button>
+          <div class="forgot-link">
+            <a (click)="showForgotPasswordForm = false"
+              >Volver al inicio de sesión</a
+            >
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</ng-template>

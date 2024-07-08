@@ -1,0 +1,81 @@
+<div class="container-anomalies">
+  <div class="graph">
+    <mat-card class="graph-info">
+      <app-apex-graph-defects></app-apex-graph-defects>
+    </mat-card>
+    <mat-card class="button-card">
+      <div class="button-row">
+        <button mat-raised-button color="primary" type="submit" [disabled]="!fileLoaded" (click)="buttonAnomaly()">
+          Buscar anomalías en subsector seleccionado
+        </button>
+        <button mat-raised-button color="primary" type="submit" (click)="onClick()">
+          Carga de datos de la explotación
+        </button>
+      </div>
+    </mat-card>
+  </div>
+  <div class="map">
+    <app-map #map></app-map>
+    <mat-card class="filter-card">
+      <div class="input-container">
+        <form [formGroup]="anomalyFilterForm">
+          <div class="input-row">
+            <mat-form-field class="input-place">
+              <mat-label>Mapa</mat-label>
+              <mat-select placeholder="Seleccione el mapa" formControlName="mapa"
+                (selectionChange)="onMapSelected($event.value)">
+                <mat-option *ngFor="let maps of listMapName" [value]="maps.id">{{ maps.name }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field class="input-place">
+              <mat-label>Sector</mat-label>
+              <mat-select placeholder="Seleccione el sector" formControlName="sector"
+                (valueChange)="onSectorSelected($event)">
+                <mat-option *ngFor="let sector of listSectorName" [value]="sector">{{ sector.name }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="input-row">
+            <mat-form-field class="input-place">
+              <mat-label>N° de días</mat-label>
+              <mat-select placeholder="Número de días" formControlName="number_of_days">
+                <mat-option [value]="day" *ngFor="let day of valor14">{{
+                  day
+                  }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field class="input-place">
+              <mat-label>Días consecutivos</mat-label>
+              <mat-select placeholder="Días consecutivos" formControlName="consecutive_days">
+                <mat-option [value]="days" *ngFor="let days of valor14">{{
+                  days
+                  }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field class="input-place">
+              <mat-label>Tolerancia</mat-label>
+              <mat-select placeholder="Indique la tolerancia" formControlName="tolerance" (valueChange)="onToleranceChange($event)">
+                <mat-option [value]="tolerance" *ngFor="let tolerance of toleranceFilter">{{ tolerance }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field class="input-place">
+              <mat-label>N° de indicadores</mat-label>
+              <mat-select formControlName="indicator_number" (valueChange)="onIndicatorChange($event)"
+                placeholder="Indicadores mínimos">
+                <mat-option [value]="indicator" *ngFor="let indicator of indicator_number">{{ indicator }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <button mat-icon-button color="primary" class="information-btn" (click)="onInfo()">
+              <mat-icon>info</mat-icon>
+            </button>
+          </div>
+        </form>
+      </div>
+    </mat-card>
+  </div>
+</div>
+<div class="container-mesurement">
+  <div>
+    <app-measurement-variables (eventData)="onEventData($event)"></app-measurement-variables>
+  </div>
+</div>

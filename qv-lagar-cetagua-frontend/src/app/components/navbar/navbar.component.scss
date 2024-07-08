@@ -1,0 +1,62 @@
+@import './src/assets/scss/variables.scss';
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+
+mat-toolbar {
+    background-color: $primary-bluemarine;
+    // background: linear-gradient(to bottom right, $primary-dark-bluemarine, $secondary-dark-cyan);
+
+}
+
+
+mat-icon {
+    color: $neutral-white;
+}
+
+.title{
+    color: $neutral-white;
+}
+
+.logo-icon {
+        background: url('../../../assets/images/logo_cetaqua_blue.png') center/contain no-repeat; 
+        width: 100px; 
+        height: 100px; 
+        margin-right: 10px; 
+      }
+
+.menu-item{
+    padding: 15px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 2%;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.user-photo {
+    border: 5px solid #fff; 
+    border-radius: 50%; 
+    z-index: 1;
+    background-image: url('../../../assets/images/letter-c.png');
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+
+}
+
+mat-divider{
+    margin-top: 5%;
+}
+

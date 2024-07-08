@@ -1,0 +1,1856 @@
+[
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "anomaly_fillter_full",
+        "description": "anomaly_fillter_full",
+        "isExtraImport": true,
+        "detail": "anomaly_fillter_full",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TOLERANCE_TYPE",
+        "importPath": "api.core.domain.models.anomaly_filter.choices",
+        "description": "api.core.domain.models.anomaly_filter.choices",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.anomaly_filter.choices",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "api.core.domain.models.hydraulic_performance.models",
+        "description": "api.core.domain.models.hydraulic_performance.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "api.core.domain.models.hydraulic_performance.models",
+        "description": "api.core.domain.models.hydraulic_performance.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "api.core.domain.models.hydraulic_performance.models",
+        "description": "api.core.domain.models.hydraulic_performance.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "api.core.domain.models.hydraulic_performance.models",
+        "description": "api.core.domain.models.hydraulic_performance.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "api.core.domain.models.anomaly_filter.models",
+        "description": "api.core.domain.models.anomaly_filter.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "api.core.domain.models.anomaly_filter.models",
+        "description": "api.core.domain.models.anomaly_filter.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "api.core.domain.models.anomaly_filter.models",
+        "description": "api.core.domain.models.anomaly_filter.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "api.core.domain.models.anomaly_filter.models",
+        "description": "api.core.domain.models.anomaly_filter.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "api.core.domain.models.indicator.models",
+        "description": "api.core.domain.models.indicator.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "api.core.domain.models.indicator.models",
+        "description": "api.core.domain.models.indicator.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "api.core.domain.models.indicator.models",
+        "description": "api.core.domain.models.indicator.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "api.core.domain.models.indicator.models",
+        "description": "api.core.domain.models.indicator.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "api.core.domain.models.map.models",
+        "description": "api.core.domain.models.map.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "api.core.domain.models.map.models",
+        "description": "api.core.domain.models.map.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "api.core.domain.models.map.models",
+        "description": "api.core.domain.models.map.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "api.core.domain.models.map.models",
+        "description": "api.core.domain.models.map.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "models.exploitation.models",
+        "description": "models.exploitation.models",
+        "isExtraImport": true,
+        "detail": "models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "models.sector.models",
+        "description": "models.sector.models",
+        "isExtraImport": true,
+        "detail": "models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "models.anomaly_filter.models",
+        "description": "models.anomaly_filter.models",
+        "isExtraImport": true,
+        "detail": "models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "models.indicator.models",
+        "description": "models.indicator.models",
+        "isExtraImport": true,
+        "detail": "models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "importPath": "models.indicator_threshold.models",
+        "description": "models.indicator_threshold.models",
+        "isExtraImport": true,
+        "detail": "models.indicator_threshold.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "models.map.models",
+        "description": "models.map.models",
+        "isExtraImport": true,
+        "detail": "models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "models.hydraulic_performance.models",
+        "description": "models.hydraulic_performance.models",
+        "isExtraImport": true,
+        "detail": "models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "importPath": "models.hp_expected_variables.models",
+        "description": "models.hp_expected_variables.models",
+        "isExtraImport": true,
+        "detail": "models.hp_expected_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariables",
+        "importPath": "models.hp_variables.models",
+        "description": "models.hp_variables.models",
+        "isExtraImport": true,
+        "detail": "models.hp_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "importPath": "api.core.domain.models.hp_expected_variables.models",
+        "description": "api.core.domain.models.hp_expected_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_expected_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "importPath": "api.core.domain.models.hp_expected_variables.models",
+        "description": "api.core.domain.models.hp_expected_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_expected_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "importPath": "api.core.domain.models.hp_expected_variables.models",
+        "description": "api.core.domain.models.hp_expected_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_expected_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariables",
+        "importPath": "api.core.domain.models.hp_variables.models",
+        "description": "api.core.domain.models.hp_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariables",
+        "importPath": "api.core.domain.models.hp_variables.models",
+        "description": "api.core.domain.models.hp_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariables",
+        "importPath": "api.core.domain.models.hp_variables.models",
+        "description": "api.core.domain.models.hp_variables.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.hp_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "importPath": "models.exploitation",
+        "description": "models.exploitation",
+        "isExtraImport": true,
+        "detail": "models.exploitation",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "importPath": "models.sector",
+        "description": "models.sector",
+        "isExtraImport": true,
+        "detail": "models.sector",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "importPath": "models.anomaly_filter",
+        "description": "models.anomaly_filter",
+        "isExtraImport": true,
+        "detail": "models.anomaly_filter",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "importPath": "models.indicator",
+        "description": "models.indicator",
+        "isExtraImport": true,
+        "detail": "models.indicator",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "importPath": "models.indicator_threshold",
+        "description": "models.indicator_threshold",
+        "isExtraImport": true,
+        "detail": "models.indicator_threshold",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "importPath": "models.map",
+        "description": "models.map",
+        "isExtraImport": true,
+        "detail": "models.map",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "importPath": "models.hydraulic_performance",
+        "description": "models.hydraulic_performance",
+        "isExtraImport": true,
+        "detail": "models.hydraulic_performance",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "importPath": "api.core.domain.models.indicator_threshold.models",
+        "description": "api.core.domain.models.indicator_threshold.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator_threshold.models",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "importPath": "api.core.domain.models.indicator_threshold.models",
+        "description": "api.core.domain.models.indicator_threshold.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator_threshold.models",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "importPath": "api.core.domain.models.indicator_threshold.models",
+        "description": "api.core.domain.models.indicator_threshold.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.models.indicator_threshold.models",
+        "documentation": {}
+    },
+    {
+        "label": "parser_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "JSONParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilterFull",
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "isExtraImport": true,
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "ExploitationSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariablesSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SectorSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilterSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThresholdSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MapSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformanceSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariablesSerializer",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_LOW",
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "isExtraImport": true,
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_MID",
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "isExtraImport": true,
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_HIGH",
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "isExtraImport": true,
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "api.views",
+        "description": "api.views",
+        "isExtraImport": true,
+        "detail": "api.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "views.views",
+        "description": "views.views",
+        "isExtraImport": true,
+        "detail": "views.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "api.infrastructure.config",
+        "description": "api.infrastructure.config",
+        "isExtraImport": true,
+        "detail": "api.infrastructure.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "simple_history.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_LOW",
+        "kind": 5,
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "peekOfCode": "A_F_DEFAULT_VALUES_TOLERANCE_LOW =  {\n                    \"anomaly_filter_full\": {\n                        \"flow\": {\n                            \"active\": True,\n                            \"meanWeekDays\": 2,\n                            'hours': 2,\n                            'tolerance': 0.25\n                        },\n                        'minFlow': {\n                            'active': True,",
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_MID",
+        "kind": 5,
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "peekOfCode": "A_F_DEFAULT_VALUES_TOLERANCE_MID =  {\n                    \"anomaly_filter_full\": {\n                        \"flow\": {\n                            \"active\": True,\n                            \"meanWeekDays\": 2,\n                            'hours': 4,\n                            'tolerance': 0.5\n                        },\n                        'minFlow': {\n                            'active': True,",
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "A_F_DEFAULT_VALUES_TOLERANCE_HIGH",
+        "kind": 5,
+        "importPath": "api.config.default_values_config",
+        "description": "api.config.default_values_config",
+        "peekOfCode": "A_F_DEFAULT_VALUES_TOLERANCE_HIGH =  {\n                    \"anomaly_filter_full\": {\n                        \"flow\": {\n                            \"active\": True,\n                            \"meanWeekDays\": 2,\n                            'hours': 8,\n                            'tolerance': 0.75\n                        },\n                        'minFlow': {\n                            'active': True,",
+        "detail": "api.config.default_values_config",
+        "documentation": {}
+    },
+    {
+        "label": "DailyVolume",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class DailyVolume:\n    active: bool\n    movingAverageDays: int\n    fixedAverageDays: int\n    weightAverage: int\n    weightDeviation: float\n    tolerance: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'DailyVolume':\n        _active = bool(obj.get(\"active\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "Flow",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class Flow:\n    active: bool\n    meanWeekDays: int\n    hours: int\n    tolerance: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'Flow':\n        _active = bool(obj.get(\"active\"))\n        _meanWeekDays = int(obj.get(\"meanWeekDays\"))\n        _hours = int(obj.get(\"hours\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "Meteo",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class Meteo:\n    active: bool\n    @staticmethod\n    def from_dict(obj: Any) -> 'Meteo':\n        _active = bool(obj.get(\"active\"))\n        return Meteo(_active)\n@dataclass\nclass MinFlow:\n    active: bool\n    movingAverageDays: int",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "MinFlow",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class MinFlow:\n    active: bool\n    movingAverageDays: int\n    fixedAverageDays: int\n    weightAverage: int\n    weightDeviation: float\n    tolerance: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'MinFlow':\n        _active = bool(obj.get(\"active\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "MinFlowDivmeanFlow",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class MinFlowDivmeanFlow:\n    active: bool\n    movingAverageDays: int\n    weightAverage: int\n    weightDeviation: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'MinFlowDivmeanFlow':\n        _active = bool(obj.get(\"active\"))\n        _movingAverageDays = int(obj.get(\"movingAverageDays\"))\n        _weightAverage = int(obj.get(\"weightAverage\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "MinFlowMultmeanFlow",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class MinFlowMultmeanFlow:\n    active: bool\n    movingAverageDays: int\n    weightAverage: int\n    weightDeviation: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'MinFlowMultmeanFlow':\n        _active = bool(obj.get(\"active\"))\n        _movingAverageDays = int(obj.get(\"movingAverageDays\"))\n        _weightAverage = int(obj.get(\"weightAverage\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "Pressure",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class Pressure:\n    active: bool\n    movingAverageDays: int\n    weightAverage: int\n    weightDeviation: float\n    @staticmethod\n    def from_dict(obj: Any) -> 'Pressure':\n        _active = bool(obj.get(\"active\"))\n        _movingAverageDays = int(obj.get(\"movingAverageDays\"))\n        _weightAverage = int(obj.get(\"weightAverage\"))",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilterFull",
+        "kind": 6,
+        "importPath": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "description": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "peekOfCode": "class AnomalyFilterFull:\n    flow: Flow\n    minFlow: MinFlow\n    dailyVolume: DailyVolume\n    pressure: Pressure\n    minFlowMultmeanFlow: MinFlowMultmeanFlow\n    minFlowDivmeanFlow: MinFlowDivmeanFlow\n    meteo: Meteo\n    @staticmethod\n    def from_dict(obj: Any) -> 'AnomalyFilterFull':",
+        "detail": "api.core.domain.interfaces.anomaly_fillter_full.models",
+        "documentation": {}
+    },
+    {
+        "label": "TOLERANCE_TYPE",
+        "kind": 5,
+        "importPath": "api.core.domain.models.anomaly_filter.choices",
+        "description": "api.core.domain.models.anomaly_filter.choices",
+        "peekOfCode": "TOLERANCE_TYPE = (\n    ('ALTA', 'Alta'),\n    ('MEDIA', 'Media'),\n    ('BAJA', 'Baja'),\n)",
+        "detail": "api.core.domain.models.anomaly_filter.choices",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilter",
+        "kind": 6,
+        "importPath": "api.core.domain.models.anomaly_filter.models",
+        "description": "api.core.domain.models.anomaly_filter.models",
+        "peekOfCode": "class AnomalyFilter(models.Model):\n    \"\"\"\n    Anomaly Filter Model\n    This model contains the information of the anomaly filter in the database\n    Attributes: id, number_of_days, tolerance, indicator_number, sector\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    number_of_days= models.IntegerField()\n    tolerance = models.CharField(max_length=10, choices=TOLERANCE_TYPE, default='MEDIA')\n    indicator_number = models.IntegerField()",
+        "detail": "api.core.domain.models.anomaly_filter.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exploitation",
+        "kind": 6,
+        "importPath": "api.core.domain.models.exploitation.models",
+        "description": "api.core.domain.models.exploitation.models",
+        "peekOfCode": "class Exploitation(models.Model):\n    \"\"\"\n    Exploitation Model\n    This model contains the information of the exploitation in the database\n    Attributes: id, name, description\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    name = models.CharField(max_length=255)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "api.core.domain.models.exploitation.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariables",
+        "kind": 6,
+        "importPath": "api.core.domain.models.hp_expected_variables.models",
+        "description": "api.core.domain.models.hp_expected_variables.models",
+        "peekOfCode": "class HPExpectedVariables(models.Model):\n    \"\"\" \n    HP Expected Variables Model\n    This model contains the information of the expected variables in the database\n    Attributes: id, hydraulic_performance, hp_expected, supplied_expected, registed_expected\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    hydraulic_performance = models.OneToOneField(HydraulicPerformance, on_delete=models.CASCADE)\n    hp_expected = models.FloatField()\n    supplied_expected = models.FloatField()",
+        "detail": "api.core.domain.models.hp_expected_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariables",
+        "kind": 6,
+        "importPath": "api.core.domain.models.hp_variables.models",
+        "description": "api.core.domain.models.hp_variables.models",
+        "peekOfCode": "class HPVariables(models.Model):\n    \"\"\"\n    HP Variables Model\n    This model contains the information of the variables in the database\n    Attributes: id, hydraulic_performance, contract_number, liters_supplied, percentage_adjustment, percentage_telereading\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    hydraulic_performance = models.OneToOneField(HydraulicPerformance, on_delete=models.CASCADE)\n    contract_number = models.IntegerField()\n    liters_supplied = models.FloatField()",
+        "detail": "api.core.domain.models.hp_variables.models",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformance",
+        "kind": 6,
+        "importPath": "api.core.domain.models.hydraulic_performance.models",
+        "description": "api.core.domain.models.hydraulic_performance.models",
+        "peekOfCode": "class HydraulicPerformance(models.Model):\n    \"\"\"\n    Hydraulic Performance Model\n    This model contains the information of the hydraulic performance in the database\n    Attributes: id, sector, year, bimester, hp_total_percentage\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    sector = models.ForeignKey(Sector, on_delete=models.CASCADE)\n    year = models.IntegerField()\n    bimester = models.IntegerField()",
+        "detail": "api.core.domain.models.hydraulic_performance.models",
+        "documentation": {}
+    },
+    {
+        "label": "Indicator",
+        "kind": 6,
+        "importPath": "api.core.domain.models.indicator.models",
+        "description": "api.core.domain.models.indicator.models",
+        "peekOfCode": "class Indicator(models.Model):\n    \"\"\"\n    Indicator Model\n    This model contains the information of the indicator in the database\n    Attributes: id, name, description\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    name = models.CharField(max_length=50)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "api.core.domain.models.indicator.models",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThreshold",
+        "kind": 6,
+        "importPath": "api.core.domain.models.indicator_threshold.models",
+        "description": "api.core.domain.models.indicator_threshold.models",
+        "peekOfCode": "class IndicatorThreshold(models.Model):\n    \"\"\"\n    Indicator Threshold Model\n    This model contains the information of the indicator threshold in the database\n    Attributes: id, active, meanWeekDays, meanSurrounding, hours, tolerance, \n    movingAverageDays, fixedAverageDays, weightAverage, weightDeviation, anomaly_filter, indicator\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    active = models.BooleanField(null=True)\n    meanWeekDays = models.IntegerField(null=True)",
+        "detail": "api.core.domain.models.indicator_threshold.models",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "kind": 6,
+        "importPath": "api.core.domain.models.map.models",
+        "description": "api.core.domain.models.map.models",
+        "peekOfCode": "class Map(models.Model): \n    \"\"\"\n    Map Model\n    This model contains the information of the map in the database\n    Attributes: id, name, description, geojson, exploitation\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    name = models.CharField(max_length=255)\n    description = models.TextField()\n    geojson = models.JSONField() #mapa de la explotación",
+        "detail": "api.core.domain.models.map.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sector",
+        "kind": 6,
+        "importPath": "api.core.domain.models.sector.models",
+        "description": "api.core.domain.models.sector.models",
+        "peekOfCode": "class Sector(models.Model):\n    \"\"\"\n    Sector Model\n    This model contains the information of the sector in the database\n    Attributes: id, name, description, map\n    \"\"\"\n    id = models.AutoField(primary_key=True)\n    name = models.CharField(max_length=255)\n    description = models.TextField()\n    map = models.ForeignKey(Map, on_delete=models.CASCADE, default='')",
+        "detail": "api.core.domain.models.sector.models",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "api.infrastructure.config.db",
+        "description": "api.infrastructure.config.db",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSQLITE = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# psycopg2\nPOSTGRESQL = {",
+        "detail": "api.infrastructure.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "SQLITE",
+        "kind": 5,
+        "importPath": "api.infrastructure.config.db",
+        "description": "api.infrastructure.config.db",
+        "peekOfCode": "SQLITE = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# psycopg2\nPOSTGRESQL = {\n    'default': {",
+        "detail": "api.infrastructure.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "POSTGRESQL",
+        "kind": 5,
+        "importPath": "api.infrastructure.config.db",
+        "description": "api.infrastructure.config.db",
+        "peekOfCode": "POSTGRESQL = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ.get('POSTGRES_DB'),\n        'USER':os.environ.get('POSTGRES_USER'),\n        'PASSWORD':os.environ.get('POSTGRES_PASSWORD'),\n        'HOST':os.environ.get('POSTGRES_HOST'),\n        'PORT': '5432',\n    }\n}",
+        "detail": "api.infrastructure.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "MYSQL",
+        "kind": 5,
+        "importPath": "api.infrastructure.config.db",
+        "description": "api.infrastructure.config.db",
+        "peekOfCode": "MYSQL = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'cetaqua_DB',\n        'USER': 'root',\n        'PASSWORD': '',\n        'HOST': 'localhost',\n        'PORT': '3306',\n        'OPTIONS': {\n            'sql_mode': 'traditional',",
+        "detail": "api.infrastructure.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "api.migrations.0001_initial",
+        "description": "api.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='AnomalyFilter',\n            fields=[\n                ('id', models.AutoField(primary_key=True, serialize=False)),\n                ('number_of_days', models.IntegerField()),",
+        "detail": "api.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ExploitationSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class ExploitationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Exploitation\n        fields = '__all__'\nclass SectorSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Sector\n        fields = '__all__'\nclass IndicatorThresholdSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SectorSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class SectorSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Sector\n        fields = '__all__'\nclass IndicatorThresholdSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = IndicatorThreshold\n        fields = '__all__'\nclass IndicatorSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThresholdSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class IndicatorThresholdSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = IndicatorThreshold\n        fields = '__all__'\nclass IndicatorSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Indicator\n        fields = '__all__'\nclass AnomalyFilterSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class IndicatorSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Indicator\n        fields = '__all__'\nclass AnomalyFilterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = AnomalyFilter\n        fields = '__all__'\nclass MapSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilterSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class AnomalyFilterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = AnomalyFilter\n        fields = '__all__'\nclass MapSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Map\n        fields = '__all__'\nclass HydraulicPerformanceSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MapSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class MapSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Map\n        fields = '__all__'\nclass HydraulicPerformanceSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HydraulicPerformance\n        fields = '__all__'\nclass HPExpectedVariablesSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformanceSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class HydraulicPerformanceSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HydraulicPerformance\n        fields = '__all__'\nclass HPExpectedVariablesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HPExpectedVariables\n        fields = '__all__'\nclass HPVariablesSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariablesSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class HPExpectedVariablesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HPExpectedVariables\n        fields = '__all__'\nclass HPVariablesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HPVariables\n        fields = '__all__'",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariablesSerializer",
+        "kind": 6,
+        "importPath": "api.serializers.serializers",
+        "description": "api.serializers.serializers",
+        "peekOfCode": "class HPVariablesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HPVariables\n        fields = '__all__'",
+        "detail": "api.serializers.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ExploitationViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class ExploitationViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    path url allowed the following methods: GET, POST, PUT for Exploitation model\n    Exploitation View\n    This view allows the get, post, and put for Exploitation model\n    \"\"\"\n    queryset = Exploitation.objects.all()\n    serializer_class = ExploitationSerializer\n    http_method_names = ['get', 'post', 'put']\n    def get_queryset(self):",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "SectorViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class SectorViewSet(viewsets.ModelViewSet):\n    queryset = Sector.objects.all()\n    serializer_class = SectorSerializer  # crud completo\nclass IndicatorThresholdViewSet(viewsets.ModelViewSet):\n    queryset = IndicatorThreshold.objects.all()\n    serializer_class = IndicatorThresholdSerializer\n    @action(detail=True, methods=['get'])\n    def find_indicator_threshold_by_sector_id_and_tolerance(self, request, pk):\n        sector_id = pk\n        query= self.request.query_params",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorThresholdViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class IndicatorThresholdViewSet(viewsets.ModelViewSet):\n    queryset = IndicatorThreshold.objects.all()\n    serializer_class = IndicatorThresholdSerializer\n    @action(detail=True, methods=['get'])\n    def find_indicator_threshold_by_sector_id_and_tolerance(self, request, pk):\n        sector_id = pk\n        query= self.request.query_params\n        try:\n            anomaly_filter_id = AnomalyFilter.objects.filter(\n                sector=sector_id).filter( tolerance=query['tolerance'].upper()).first().id",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "IndicatorViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class IndicatorViewSet(viewsets.ModelViewSet):\n    queryset = Indicator.objects.all()\n    serializer_class = IndicatorSerializer\nclass AnomalyFilterViewSet(viewsets.ModelViewSet):\n    queryset = AnomalyFilter.objects.all()\n    serializer_class = AnomalyFilterSerializer\n    @parser_classes([JSONParser])\n    def create(self, request, *args, **kwargs):\n        new_anomaly_filter_instance = request.data['anomaly_filter']\n        map_sector = new_anomaly_filter_instance['sector']",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "AnomalyFilterViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class AnomalyFilterViewSet(viewsets.ModelViewSet):\n    queryset = AnomalyFilter.objects.all()\n    serializer_class = AnomalyFilterSerializer\n    @parser_classes([JSONParser])\n    def create(self, request, *args, **kwargs):\n        new_anomaly_filter_instance = request.data['anomaly_filter']\n        map_sector = new_anomaly_filter_instance['sector']\n        tolerance_anml = new_anomaly_filter_instance['tolerance']\n        existing_anomaly_filter = AnomalyFilter.objects.filter(sector=map_sector).filter(tolerance=tolerance_anml).first()\n        if existing_anomaly_filter:",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "MapViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class MapViewSet(viewsets.ModelViewSet):\n    queryset = Map.objects.all()\n    serializer_class = MapSerializer\n    @action(detail=False, methods=['post'])\n    @parser_classes([JSONParser])\n    def create_map(self, request, *args, **kwargs):\n        map = self.get_serializer(data=request.data)\n        map.is_valid(raise_exception=True)\n        existing_map = Map.objects.filter(name=request.data['name']).first()\n        if existing_map:",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "HPExpectedVariablesViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class HPExpectedVariablesViewSet(viewsets.ModelViewSet):\n    queryset = HPExpectedVariables.objects.all()\n    serializer_class = HPExpectedVariablesSerializer\nclass HPVariablesViewSet(viewsets.ModelViewSet):\n    queryset = HPVariables.objects.all()\n    serializer_class = HPVariablesSerializer\nclass HydraulicPerformanceViewSet(viewsets.ModelViewSet):\n    queryset = HydraulicPerformance.objects.all()\n    serializer_class = HydraulicPerformanceSerializer\n    @action(detail=False, methods=['get'])",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "HPVariablesViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class HPVariablesViewSet(viewsets.ModelViewSet):\n    queryset = HPVariables.objects.all()\n    serializer_class = HPVariablesSerializer\nclass HydraulicPerformanceViewSet(viewsets.ModelViewSet):\n    queryset = HydraulicPerformance.objects.all()\n    serializer_class = HydraulicPerformanceSerializer\n    @action(detail=False, methods=['get'])\n    def find_hydraulic_performance_by_sector_id_and_year_and_bimester(self, request):\n        sector_id = request.query_params['sector']\n        year = request.query_params['year']",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "HydraulicPerformanceViewSet",
+        "kind": 6,
+        "importPath": "api.views.views",
+        "description": "api.views.views",
+        "peekOfCode": "class HydraulicPerformanceViewSet(viewsets.ModelViewSet):\n    queryset = HydraulicPerformance.objects.all()\n    serializer_class = HydraulicPerformanceSerializer\n    @action(detail=False, methods=['get'])\n    def find_hydraulic_performance_by_sector_id_and_year_and_bimester(self, request):\n        sector_id = request.query_params['sector']\n        year = request.query_params['year']\n        bimester = request.query_params['bimester']\n        found_hydraulic_performances = HydraulicPerformance.objects.filter(sector=sector_id).filter(year=year).filter(bimester=bimester).first()\n        if not found_hydraulic_performances:",
+        "detail": "api.views.views",
+        "documentation": {}
+    },
+    {
+        "label": "ApiConfig",
+        "kind": 6,
+        "importPath": "api.apps",
+        "description": "api.apps",
+        "peekOfCode": "class ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'api'",
+        "detail": "api.apps",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'exploitation', views.ExploitationViewSet)\nrouter.register(r'sector', views.SectorViewSet)\nrouter.register(r'indicator_threshold', views.IndicatorThresholdViewSet)\nrouter.register(r'indicador', views.IndicatorViewSet)\nrouter.register(r'anomaly_filter', views.AnomalyFilterViewSet)\nrouter.register(r'map', views.MapViewSet)\nrouter.register(r'hydraulic_performance', views.HydraulicPerformanceViewSet)\nrouter.register(r'hp_expected_variables', views.HPExpectedVariablesViewSet)\nrouter.register(r'hp_variables', views.HPVariablesViewSet)",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ctq_back.asgi",
+        "description": "ctq_back.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ctq_back.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-s5&k##@aaejs4jo=1tr^3po8%e-r39g4k*xyz)i_4k&d0y3)9y'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['backendcetaqua.azurewebsites.net',  'localhost:8000', '127.0.0.1:8000']\n# Application definition\nDJANGO_APPS = [",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-s5&k##@aaejs4jo=1tr^3po8%e-r39g4k*xyz)i_4k&d0y3)9y'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['backendcetaqua.azurewebsites.net',  'localhost:8000', '127.0.0.1:8000']\n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['backendcetaqua.azurewebsites.net',  'localhost:8000', '127.0.0.1:8000']\n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['backendcetaqua.azurewebsites.net',  'localhost:8000', '127.0.0.1:8000']\n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DJANGO_APPS",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "DJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nLOCAL_APPS = [\n    'api',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOCAL_APPS",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "LOCAL_APPS = [\n    'api',\n    'users',\n]\nTHIRD_PARTY = [\n    'rest_framework',\n    'rest_framework_simplejwt',\n    'corsheaders',\n    'simple_history',\n    'drf_yasg',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "THIRD_PARTY",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "THIRD_PARTY = [\n    'rest_framework',\n    'rest_framework_simplejwt',\n    'corsheaders',\n    'simple_history',\n    'drf_yasg',\n]\nINSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY\nMIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY\nMIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ctq_back.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    'DEFAULT_PERMISSION_CLASSES': (\n      'rest_framework.permissions.IsAuthenticated',  \n    ),\n}\nWSGI_APPLICATION = 'ctq_back.wsgi.application'\nAUTH_USER_MODEL = 'users.User'",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ctq_back.wsgi.application'\nAUTH_USER_MODEL = 'users.User'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = db.POSTGRESQL\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.User'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = db.POSTGRESQL\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "DATABASES = db.POSTGRESQL\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL= True",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL= True",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL= True",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL= True",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ctq_back.settings",
+        "description": "ctq_back.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL= True",
+        "detail": "ctq_back.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "ctq_back.urls",
+        "description": "ctq_back.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n    openapi.Info(\n        title=\"CTQ BACKEND\",\n        default_version='v1',\n        description=\"Document for CTQ - Backend\", \n        terms_of_service=\"https://www.google.com/policies/terms/\",\n        contact=openapi.Contact(email=\"cetaquaqv@gmail.com\"),\n        license=openapi.License(name=\"BSD License\"),\n    ),\n    public=True,",
+        "detail": "ctq_back.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ctq_back.urls",
+        "description": "ctq_back.urls",
+        "peekOfCode": "urlpatterns = [\n    ## Swagger Documentation\n#    re_path(r'^swagger(?P<format>\\.json|\\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),\n    path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),\n    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),\n    path('admin/', admin.site.urls),\n    path('api/', include('api.urls')),    \n]",
+        "detail": "ctq_back.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ctq_back.wsgi",
+        "description": "ctq_back.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ctq_back.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0001_initial",
+        "description": "users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    \"\"\"\n        User Manager\n        Abstract Base Class for managing users.\n        This class provides methods for creating, reading, updating, and deleting users.\n    \"\"\"\n    def _create_user(self, email, name,last_name, password, is_staff, is_superuser, **extra_fields):\n        \"\"\"\n            This method used a private method that is used to create a new user and save it to the database.\n            Args: email, name, last_name, password, is_staff, is_superuser",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    \"\"\"\n        User Model Definition\n        Implements the user model for the application.\n    \"\"\"\n    email = models.EmailField('Correo Electrónico',max_length = 255, unique = True,)\n    name = models.CharField('Nombres', max_length = 255, blank = True, null = True)\n    last_name = models.CharField('Apellidos', max_length = 255, blank = True, null = True)\n    image = models.ImageField('Imagen de perfil', upload_to='perfil/', max_length=255, null=True, blank = True)\n    is_active = models.BooleanField(default = True)",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "ExploitationUser",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class ExploitationUser(models.Model):\n     user=models.OneToOneField(User, on_delete=models.CASCADE, related_name='user')\n     exploitation=models.IntegerField('Exploitation')",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ctq_back.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

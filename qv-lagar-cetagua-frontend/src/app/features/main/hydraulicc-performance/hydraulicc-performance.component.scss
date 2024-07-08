@@ -1,0 +1,90 @@
+@import './src/assets/scss/variables.scss';
+
+.container-performance{
+    display: flex;
+    margin: 2%;
+    background-color: $neutral-white;
+    // gap: 10px;
+    flex-direction: column;
+    padding: 1%;
+} 
+
+.data{
+    display: flex;
+    gap: 10px;
+}
+
+
+.graph{
+    margin-left: 5px;
+    flex: 55%;
+    width: 100%;
+}
+
+ button{
+    margin: 1%;
+    
+}
+
+.filter-card{
+    margin: 2%;
+    display: flex;
+}
+
+.input-container{
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+}
+
+.input-row{
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    // flex-grow: 1;s
+
+}
+
+.input-place{
+    flex: 1;
+    margin-right: 8px;
+}
+
+.dataBlur {
+    filter: blur(5px); 
+  }
+
+  .newPerformance:first-child{
+    // background-color: $states-desactive;
+    // color: $accent-dark-green;
+  }
+
+
+@media screen and (max-width: 1000px) {
+    .container-anomalies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .data{
+        flex-wrap: wrap
+    }
+    .map{
+        flex: 100%; 
+        margin-right: 5px;
+    }
+    .graph{
+        flex: 100%;
+        margin-right: 5px;
+    }
+
+    .input-row {
+        flex-direction: column; 
+      }
+    
+    .input-place {
+    flex: 1;
+    margin-right: 0; 
+    }
+    
+  }

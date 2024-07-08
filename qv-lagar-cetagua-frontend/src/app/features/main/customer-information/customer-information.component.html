@@ -1,0 +1,60 @@
+<div class="construction">
+  <mat-card class="construction-card">
+    <mat-card-header class="card-header">
+      <mat-card-title class="title-box">Fichero de clientes</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="card-file-content">
+      <p>Fichero: {{ clientFile ? 'Cargado con éxito!' : 'Sin cargar' }}</p>
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        (click)="onClickClient()">
+        Cargar fichero
+      </button>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="construction-card">
+    <mat-card-header class="card-header">
+      <mat-card-title class="title-box">Fichero de sectores</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="card-file-content">
+      <p>Fichero: {{ sectorFile ? 'Cargado con éxito!' : 'Sin cargar' }}</p>
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        (click)="onClickSector()">
+        Cargar fichero
+      </button>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="construction-card">
+    <mat-card-header class="card-header">
+      <mat-card-title class="title-box">Fichero de acometidas</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="card-file-content">
+      <p>
+        Fichero: {{ connectionsFile ? 'Cargado con éxito!' : 'Sin cargar' }}
+      </p>
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        (click)="onClickConnections()">
+        Cargar fichero
+      </button>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div class="assign-button">
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit"
+    [disabled]="!fileAccept"
+    (click)="calculateAssigments()">
+    Identificación de asignaciones incorrectas
+  </button>
+</div>

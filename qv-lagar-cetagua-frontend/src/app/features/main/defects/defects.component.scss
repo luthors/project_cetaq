@@ -1,0 +1,106 @@
+@import './src/assets/scss/variables.scss';
+
+
+
+.container-anomalies{
+    display: flex;
+}
+
+.map{
+    flex:45%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.graph{
+    margin-left: 5px;
+    flex: 55%;
+    width: 100%;
+}
+
+.graph-info{
+    background-color: $neutral-white;
+    padding-top: 3%;
+}
+
+.container-mesurement{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: $neutral-white;
+    margin-top: 2%;
+}
+
+.button-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.button-row{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+.button-row button{
+    flex-grow: 1;
+    margin: 1%;
+    width: 50%;
+}
+.filter-card{
+    margin-top: 2%;
+    display: flex;
+}
+
+.input-container{
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+}
+
+.input-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-place{
+    flex: 1;
+    margin-right: 8px;
+}
+
+.information-btn{
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    color: $neutral-gray-75;
+    margin-right: 0.5em;
+    margin-top: 0.70em;
+    &:hover{
+      transition: all 1s ease;
+      color: $primary-bluemarine;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .container-anomalies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map{
+        flex: 100%;
+        margin-right: 5px;
+    }
+    .graph{
+        flex: 100%;
+        margin-right: 5px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .input-row {
+      flex-direction: column;
+    }
+    .input-place {
+      flex: 1;
+      margin-right: 0;
+    }
+  }

@@ -1,0 +1,39 @@
+# version: "3.7"
+
+# services:
+#   cetagua-backend:
+#     build:
+#       context: .
+#       dockerfile: ./Dockerfile
+#     image: lagar-cetagua-backend
+#     container_name: cetagua-backend
+#     volumes:
+#       - .:/application:z
+#     env_file:
+#       - ./envs/.env
+#     ports:
+#       - "8000:8000"
+#     networks:
+#       - backend_network
+#     depends_on:
+#       - postgres
+#     links:
+#       - "postgres"
+
+#   postgres:
+#     image: postgres:16
+#     container_name: cetagua_db
+#     volumes:
+#       - cetagua_data:/var/lib/postgresql/data
+#     env_file:
+#       - ./envs/.env
+#     networks:
+#       - backend_network
+#     ports:
+#       - "5433:5432"
+
+# volumes:
+#   cetagua_data:
+
+# networks:
+#   backend_network:

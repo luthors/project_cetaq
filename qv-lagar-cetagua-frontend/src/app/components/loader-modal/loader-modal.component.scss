@@ -1,0 +1,21 @@
+@import './src/assets/scss/variables.scss';
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+  border-radius: 10px;
+
+}
+.modal-title{
+  color: $primary-bluemarine;
+}
+.modal-description{
+  color: $neutral-gray-75;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

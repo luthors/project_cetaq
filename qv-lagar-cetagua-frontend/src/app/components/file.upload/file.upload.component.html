@@ -1,0 +1,53 @@
+<div class="modal-container">
+  <h2 mat-dialog-title class="modal-title">{{ data.title }}</h2>
+  <p class="modal-description">{{ data.description }}</p>
+  <div mat-dialog-content class="modal-content">
+    <div class="center">
+      <ngx-file-drop
+        dropZoneLabel="Drop files here"
+        (onFileDrop)="dropped($event)"
+        (onFileOver)="fileOver($event)"
+        (onFileLeave)="fileLeave($event)">
+        <ng-template
+          ngx-file-drop-content-tmp
+          let-openFileSelector="openFileSelector">
+          <div class="drag-container">
+            <p class="drag-text">Arrastre aquí el fichero</p>
+            <button class="upload-button" mat-fab extended (click)="openFileSelector()">
+              <mat-icon>file_upload</mat-icon>
+              <span>Subir Fichero</span>
+            </button>
+          </div>
+        </ng-template>
+      </ngx-file-drop>
+      <div class="box-actions">
+        <p class="modal-description">Extensiones permitidas: {{ data.allowedExtensions }}</p>
+        <div mat-dialog-actions class="button-modal">
+          <button mat-fab extended class="upload-button" (click)="closeModal()">
+            <span>Cerrar</span>
+          </button>
+          <button mat-fab extended class="upload-button" (click)="aceptModal()">
+            <span>Aceptar</span>
+          </button>
+        </div>
+      </div>
+  
+      <div class="upload-table">
+        <table class="table">
+          <caption></caption>
+          <tbody class="upload-name-style">
+            <tr>
+              <th scope="col"></th>
+            </tr>
+            <tr *ngFor="let item of files; let i = index">
+              <td>
+                Subir <strong>{{ item.relativePath }}</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</div>

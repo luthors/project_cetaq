@@ -1,0 +1,68 @@
+@import './src/assets/scss/variables.scss';
+
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+mat-sidenav {
+    background-color: $neutral-white;
+    box-shadow: 4px 6px 14px -3px;
+
+    // @media screen and (max-width: 959px) {
+    //     width: 80px;
+    //   }
+
+}
+.sidenav-small {
+  width: 90px; 
+}
+
+mat-sidenav-content{
+    height: calc(100vh - 65px);
+}
+.content{
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 14px -3px;
+    background-color: $secondary-background-cyan;
+}
+
+
+.button-sidenav{
+    width: 100%;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    font-size: $font-size-nav-section;
+    background-color: $neutral-white;
+    color:black
+    
+}
+
+.button-sidenav-section {
+    width: 100%;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $font-size-nav-section-root;
+    background-color: $neutral-white;
+    color: black
+}
+
+.button-sidenav:hover {
+    color: $primary-bluemarine-medium-2;
+  }
+
+  .button-sidenav-section:hover {
+    color: $primary-bluemarine-medium-2;
+  }
+
+  .logo-container {
+    text-align: center;
+    padding: 10px;
+  }
+  
